@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        #block{
+            border:solid lightgray 8px;
+            width:1200px;
+            margin: 0 auto;
+            padding: 7px;
+        }
+        #header{
+            background-color: darkgray;
+            height:70px;
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 25px;
+            margin-bottom: 7px;
+        }
+        #banner{
+            background-color: skyblue;
+            width:100%;
+            height: 100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 50px;
+            margin-bottom: 7px;
+        }
+        #sec1{
+            text-align: center;
+            margin: 7px;
+            font-size: 30px;
+        }
+        #c1{
+            width: 180px;
+            height:180px;
+            border-radius: 50%;
+            background-color:red;
+            float:left;
+            margin:4.5% 4.5% 4.5% 5.5%;
+            
+        }
+        #c2{
+            width: 180px;
+            height:180px;
+            border-radius: 50%;
+            background-color:red;
+            float:left;
+            margin:4.5%;
+        
+            
+        }
+        #c3{
+            width: 180px;
+            height:180px;
+            border-radius: 50%;
+            background-color:red;
+            float: left;
+            margin:4.5%;
+            
+            
+            
+        }
+        #c4{
+            width: 180px;
+            height:180px;
+            border-radius: 50%;
+            background-color:red;
+            float: left;
+            margin: 4.5%;
+        }
+        #sec1:after{
+            content:'';
+            display: block;
+            clear: both;
+        }
+        #sec2{
+            margin: 10px 10px 20px 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+        #left{
+            height:516px;
+            width:50%;
+            float: left;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 40px;
+            background-color: gray;
+        }
+        #right{
+            float:right;
+            height:516px;
+            width:48%;
+        }
+        #a1{
+            width: 100%;
+            height: 172px;
+            background-color: orange;
+            margin-bottom: 4px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 25px;
+            margin-bottom: 2px;
+        }
+        #a2{
+            width: 100%;
+            height: 170px;
+            background-color: orange;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 25px;
+            margin-bottom: 2px;
+        
+        }
+        #a3{
+            width: 100%;
+            height: 170px;
+            background-color: orange;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 25px;
+        }
+        #sec2:after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        #sec3{
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        #b1{
+            height: 300px;
+            width: 19%;
+            background-color: green;
+            margin: 3%;
+            float:left;
+        }
+        #b2{
+            height: 300px;
+            width: 19%;
+            background-color: green;
+            margin: 3%;
+            float:left;
+        }
+        #b3{
+            height: 300px;
+            width: 19%;
+            background-color: green;
+            margin: 3%;
+            float:left;
+        }
+        #b4{
+            height: 300px;
+            width: 19%;
+            background-color: green;
+            margin: 3%;
+            float:left;
+        }
+        #sec3:after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        #footer{
+            background-color: gray;
+            height:70px;
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 25px;
+            margin
+    
+        }
+
+    </style>
+</head>
+<body>
+    <div id="block">
+        <div id="header">Header</div>
+        <div id="banner">Banner</div>
+        <div id="sec1">
+            <h2>Section-1</h2>
+            <div id="c1"></div>
+            <div id="c2"></div>
+            <div id="c3"></div>
+            <div id="c4"></div>
+            <h2>Section-2</h2>
+        </div>
+        <div id="sec2">
+            <div id="left">Main Content</div>
+            <div id="right">
+                <div id="a1">Article-1</div>
+                <div id="a2">Article-2</div>
+                <div id="a3">Article-3</div>
+            </div>
+        </div>
+        <div id="sec3">
+            <h2>Section-3</h2>
+            <div id="b1"></div>
+            <div id="b2"></div>
+            <div id="b2"></div>
+            <div id="b4"></div>
+            <h2>Section-4</h2>
+        </div>
+        <div id="footer">Footer</div>
+    </div>
+</body>
+</html>
