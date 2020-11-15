@@ -37,17 +37,17 @@ function setGreeting(){
     let hour = today.getHours();
 
     if(hour<12){
-        document.body.style.backgroundImage = 'url(p2.jpg)';
+        document.body.style.backgroundColor = 'red';
         greeting.innerHTML = "Good Morning";
     }
 
     else if(hour>12){
-        document.body.style.backgroundImage = 'url(evening.jpg)';
+        document.body.style.backgroundColor = 'yellow';
         greeting.innerHTML = "Good Evening";
     }
 
     else {
-        document.body.style.backgroundImage = 'url(afternoon.jpg)';
+        document.body.style.backgroundColor = 'purple';
         greeting.innerHTML = "Good Afternoon";
     }
 }
